@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    android:background="@color/colorYellow"
+    tools:context="com.markfeldman.myappportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:text="@string/app_name"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:paddingBottom="@dimen/main_activity_button_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/appTitle"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/moviesAppBtn"
+            android:text="@string/popular_movies_app"
+            android:background="@color/colorCreamy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/stockHawkAppBtn"
+            android:text="@string/stock_hawk__app"
+            android:background="@color/colorCreamy"
+            android:layout_marginTop="@dimen/main_activity_button_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/buildItBiggerAppBtn"
+            android:text="@string/build_it_bigger__app"
+            android:background="@color/colorCreamy"
+            android:layout_marginTop="@dimen/main_activity_button_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/materialAppBtn"
+            android:text="@string/material_app"
+            android:background="@color/colorCreamy"
+            android:layout_marginTop="@dimen/main_activity_button_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/goUbiquitousAppBtn"
+            android:text="@string/go_ubiquitous"
+            android:background="@color/colorCreamy"
+            android:layout_marginTop="@dimen/main_activity_button_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/capstoneBtn"
+            android:text="@string/capstone"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="@dimen/main_activity_button_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>

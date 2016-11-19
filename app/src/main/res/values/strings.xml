@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My App Portfolio</string>
+    <string name="popular_movies_app">POPULAR MOVIES</string>
+    <string name="stock_hawk__app">STOCK HAWK</string>
+    <string name="build_it_bigger__app">BUILD IT BIGGER</string>
+    <string name="material_app">MAKE YOUR APP MATERIAL</string>
+    <string name="go_ubiquitous">GO UBIQUITOUS</string>
+    <string name="capstone">CAPSTONE MY OWN APP</string>
+</resources>
