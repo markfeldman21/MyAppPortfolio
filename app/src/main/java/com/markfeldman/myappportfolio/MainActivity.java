@@ -34,27 +34,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.moviesAppBtn:{
-                Toast.makeText(getApplicationContext(),"This is the movies app",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"This button will launch my 'Popular Movies' project",Toast.LENGTH_LONG).show();
                 break;
             }
             case R.id.stockHawkAppBtn:{
-                Toast.makeText(getApplicationContext(),"This is the Stock Hawk app",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"This button will launch my 'Stock Hawk' project",Toast.LENGTH_LONG).show();
                 break;
             }
             case R.id.buildItBiggerAppBtn:{
-                Toast.makeText(getApplicationContext(),"This is the Build It Bigger app",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"This button will launch my 'Build It Bigger' project",Toast.LENGTH_LONG).show();
                 break;
             }
             case R.id.materialAppBtn:{
-                Toast.makeText(getApplicationContext(),"This is the material app",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"This button will launch my 'Make Your App Material' project",Toast.LENGTH_LONG).show();
                 break;
             }
             case R.id.goUbiquitousAppBtn:{
-                Toast.makeText(getApplicationContext(),"This is the go ubiquitous app",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"This button will launch my 'Go Ubiquitous' project",Toast.LENGTH_LONG).show();
                 break;
             }
             case R.id.capstoneBtn:{
-                Toast.makeText(getApplicationContext(),"This is the capstone app",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"This button will launch my 'Capstone My Own App' project",Toast.LENGTH_LONG).show();
                 break;
             }
         }
