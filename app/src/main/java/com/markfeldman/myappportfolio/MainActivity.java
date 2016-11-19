@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             }
             case R.id.goUbiquitousAppBtn:{
-                Toast.makeText(getApplicationContext(),"This button will launch my 'Go  Ubiquitous' project",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"This button will launch my 'Go Ubiquitous' project",Toast.LENGTH_LONG).show();
                 break;
             }
             case R.id.capstoneBtn:{
