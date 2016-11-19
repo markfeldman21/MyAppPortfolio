@@ -61,7 +61,7 @@
         <Button
             android:id="@+id/capstoneBtn"
             android:text="@string/capstone"
-            android:background="@color/colorPrimary"
+            android:background="@color/colorRed"
             android:layout_marginTop="@dimen/main_activity_button_space"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
